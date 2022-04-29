@@ -16,7 +16,6 @@
 TMem TNode::mem;
 
 void OnEsc(TText& t) {
-
 	cout << "\nTText.Print():\n";
 	cout << "*************\n";
 	t.print();
@@ -83,9 +82,7 @@ int main() {
 			if (fgets(item, sizeof(item), stdin)) {
 				item[strcspn(item, "\r\n")] = 0;
 
-				cout << "Insert:\n1 - Next line, "
-					<< "2 - Next section, 3 - Down line, "
-					<< "4 - Down section\n";
+				cout << "Insert:\n1 - Next line, 2 - Next section, 3 - Down line, 4 - Down section\n";
 				int o1;
 				cin >> o1;
 				if (o1 == 1) {
