@@ -7,6 +7,10 @@ Line13
 SectionNew
 {
 SectionNew2
+{
+Line21
+Line22
+}
 Sectionnew3
 }
 Section3
